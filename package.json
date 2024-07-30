@@ -14,7 +14,7 @@
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://i.ibb.co/9s73jVW/logo-minecraft.png"
+        "icon": "node build.js --icon=https://cdn.discordapp.com/attachments/817454846990221352/1266149061598384209/logo_hd_ombre_2.png?ex=66aa0774&is=66a8b5f4&hm=4f2c943a4b01fc600f08e579154479d3f7df2b42ba4bf45f23de088171a0c83e&"
     },
     "license": "CCANC",
     "nodemonConfig": {

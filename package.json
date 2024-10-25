@@ -9,7 +9,7 @@
         "email": "clashxv5@gmail.com",
         "url": "https://github.com/Lokmane75"
     },
-    "url": "https://lokmane-lounge.com/",
+    "url": "http://launcher.lokmane-lounge.com/",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",

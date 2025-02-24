@@ -1,12 +1,12 @@
 {
-    "name": "infnium-launcher",
+    "name": "Infnium-launcher",
     "preductname": "Infinium Launcher",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "Le Launcher Officiel De La Infinium",
     "main": "src/app.js",
     "author": {
         "name": "luuxis, Lokmane, Inc.",
-        "email": "clashxv5@gmail.com",
+        "email": "contact@lokmane-lounge.com",
         "url": "https://github.com/Lokmane75"
     },
     "url": "https://launcher.lokmane-lounge.com/",

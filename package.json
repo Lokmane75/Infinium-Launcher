@@ -1,7 +1,7 @@
 {
     "name": "Infnium-launcher",
     "preductname": "Infinium Launcher",
-    "version": "1.0.8",
+    "version": "3.0.0",
     "description": "Le Launcher Officiel De La Infinium",
     "main": "src/app.js",
     "author": {

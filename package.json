@@ -1,7 +1,7 @@
 {
     "name": "Infinium-Launcher",
     "preductname": "Infinium Launcher",
-    "version": "2.2.2",
+    "version": "1.0.0",
     "description": "Infm on top",
     "main": "src/app.js",
     "author": {

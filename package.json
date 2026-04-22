@@ -1,8 +1,8 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
+    "name": "Infinium-Launcher",
+    "preductname": "Infinium Launcher",
     "version": "1.0.1",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "description": "Infm on top",
     "main": "src/app.js",
     "author": {
         "name": "luuxis, Lokmane Inc.",

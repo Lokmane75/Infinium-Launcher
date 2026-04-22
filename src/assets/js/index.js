@@ -1,5 +1,5 @@
 /**
- * @author Luuxis
+ * @author Luuxis, Lokmane
  * Luuxis License v1.0 (voir fichier LICENSE pour les détails en FR/EN)
  */
 
@@ -30,9 +30,9 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Je... vie...", "author": "Luuxis" },
-            { "message": "Salut je suis du code.", "author": "Luuxis" },
-            { "message": "Linux n'est pas un os, mais un kernel.", "author": "Luuxis" }
+            { "message": "SV650", "author": "Lokmane" },
+            { "message": "Salut je suis du code.", "author": "Lokmane" },
+            { "message": "Linux n'est pas un os, mais un kernel.", "author": "Lokmane" }
         ];
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;

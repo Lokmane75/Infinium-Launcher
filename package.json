@@ -5,9 +5,9 @@
     "description": "Launcher Mincraft pour le serveur Selvania",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
-        "email": "contact@luuxis.fr",
-        "url": "https://github.com/luuxis"
+        "name": "luuxis, Lokmane Inc.",
+        "email": "contact@lokmane-lounge.com",
+        "url": "https://github.com/lokmane75"
     },
     "url": "http://launcher.lokmane-lounge.com",
     "scripts": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/Lokmane75/Infinium-Launcher.git"
     }
 }

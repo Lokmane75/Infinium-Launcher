@@ -1,7 +1,7 @@
 {
     "name": "Infinium-Launcher",
     "preductname": "Infinium Launcher",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Infm on top",
     "main": "src/app.js",
     "author": {
@@ -9,7 +9,7 @@
         "email": "contact@lokmane-lounge.com",
         "url": "https://github.com/lokmane75"
     },
-    "url": "http://launcher.lokmane-lounge.com",
+    "url": "https://launcher.lokmane-lounge.com/",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",

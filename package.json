@@ -1,7 +1,7 @@
 {
     "name": "Lokmane-Launcher",
     "preductname": "Lokmane Launcher",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Lokmane on top",
     "main": "src/app.js",
     "author": {

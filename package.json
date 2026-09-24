@@ -9,7 +9,7 @@
         "email": "mettailokmane@icloud.com",
         "url": "https://github.com/lokmane75"
     },
-    "url": "https://launcher.lokmanenet/",
+    "url": "https://launcher.lokmane.net/",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",

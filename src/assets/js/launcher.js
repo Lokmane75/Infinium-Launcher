@@ -150,7 +150,7 @@ class Launcher {
                         background: false
                     });
 
-                    let refresh_accounts = await new Microsoft(this.config.client_id).refresh(account);
+                    let refresh_accounts = await new Microsoft(this.config.client_id).refresh(account).catch(err => ({ error: err.message }));
 
                     if (refresh_accounts.error) {
                         await this.db.deleteData('accounts', account_ID)
@@ -158,7 +158,7 @@ class Launcher {
                             configClient.account_selected = null
                             await this.db.updateData('configClient', configClient)
                         }
-                        console.error(`[Account] ${account.name}: ${refresh_accounts.errorMessage}`);
+                        console.error(`[Account] ${account.name}: ${refresh_accounts.error}`);
                         continue;
                     }
 
@@ -238,20 +238,17 @@ class Launcher {
             configClient = await this.db.readData('configClient')
             account_selected = configClient ? configClient.account_selected : null
 
-            if (!account_selected) {
-                let uuid = accounts[0].ID
-                if (uuid) {
-                    configClient.account_selected = uuid
-                    await this.db.updateData('configClient', configClient)
-                    accountSelect(uuid)
-                }
-            }
-
             if (!accounts.length) {
-                config.account_selected = null
-                await this.db.updateData('configClient', config);
+                configClient.account_selected = null
+                await this.db.updateData('configClient', configClient);
                 popupRefresh.closePopup()
                 return changePanel("login");
+            }
+
+            if (!account_selected) {
+                configClient.account_selected = accounts[0].ID
+                await this.db.updateData('configClient', configClient)
+                accountSelect(accounts[0])
             }
 
             popupRefresh.closePopup()
